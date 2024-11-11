@@ -100,7 +100,7 @@ def load_model(path):
        Loaded object (model or encoder).
     
    """
-   with open(path, 'rb') as file:
+    with open(path, 'rb') as file:
        return pickle.load(file)
 
 
